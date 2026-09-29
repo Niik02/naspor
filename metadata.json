@@ -1,0 +1,6 @@
+{
+  "name": "Ouro Verde - Alimento Completo para Plantas",
+  "description": "Página de vendas profissional do Ouro Verde da Naspo. Alimento completo líquido concentrado para plantas: 100 mL que rendem até 20 litros. Atendimento e vendas pelo WhatsApp.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
