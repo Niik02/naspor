@@ -48,24 +48,24 @@ export default function App() {
       {/* ========================================================================= */}
       {/* 1. CABEÇALHO */}
       {/* ========================================================================= */}
-      <header className="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-neutral-100">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 h-18 sm:h-20 flex items-center justify-between">
+      <header className="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-neutral-100 shadow-xs">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 min-h-[84px] sm:min-h-[96px] py-2 sm:py-2.5 flex items-center justify-between">
           {/* Lado Esquerdo: Logo da Naspo */}
           <a
             href="#"
-            className="flex items-center gap-2 transition-opacity hover:opacity-90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-700 rounded-md"
+            className="flex items-center transition-opacity hover:opacity-95 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-700 rounded-md"
             aria-label="Página inicial - Naspo"
           >
             {!imgErrors.logo ? (
               <img
                 src={IMAGES.logo}
                 alt="Naspo"
-                className="h-9 sm:h-11 w-auto object-contain"
+                className="h-20 sm:h-24 md:h-28 lg:h-32 w-auto max-w-[220px] sm:max-w-[300px] md:max-w-[360px] object-contain drop-shadow-xs scale-110 sm:scale-125 origin-left"
                 onError={() => handleImgError('logo')}
                 referrerPolicy="no-referrer"
               />
             ) : (
-              <span className="text-xl sm:text-2xl font-extrabold tracking-tight text-emerald-900">
+              <span className="text-2xl sm:text-3xl font-extrabold tracking-tight text-emerald-900">
                 NASPO
               </span>
             )}
