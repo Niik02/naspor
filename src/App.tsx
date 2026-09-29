@@ -31,7 +31,7 @@ const IMAGES = {
 
 const WHATSAPP_URL =
   'https://wa.me/5519993296054?text=' +
-  encodeURIComponent('Olá, Naspo! Eu me interessei pelo produto Ouro Verde e quero saber mais informações.');
+  encodeURIComponent('Olá, Naspor! Eu me interessei pelo produto Ouro Verde e quero saber mais informações.');
 
 const GOOGLE_REVIEW_URL =
   'https://search.google.com/local/writereview?placeid=ChIJO84iepeNyJQR4xmycxwa6Ho';
@@ -50,23 +50,23 @@ export default function App() {
       {/* ========================================================================= */}
       <header className="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-neutral-100 shadow-xs">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 min-h-[84px] sm:min-h-[96px] py-2 sm:py-2.5 flex items-center justify-between">
-          {/* Lado Esquerdo: Logo da Naspo */}
+          {/* Lado Esquerdo: Logo da Naspor */}
           <a
             href="#"
             className="flex items-center transition-opacity hover:opacity-95 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-700 rounded-md"
-            aria-label="Página inicial - Naspo"
+            aria-label="Página inicial - Naspor"
           >
             {!imgErrors.logo ? (
               <img
                 src={IMAGES.logo}
-                alt="Naspo"
+                alt="Naspor"
                 className="h-20 sm:h-24 md:h-28 lg:h-32 w-auto max-w-[220px] sm:max-w-[300px] md:max-w-[360px] object-contain drop-shadow-xs scale-110 sm:scale-125 origin-left"
                 onError={() => handleImgError('logo')}
                 referrerPolicy="no-referrer"
               />
             ) : (
               <span className="text-2xl sm:text-3xl font-extrabold tracking-tight text-emerald-900">
-                NASPO
+                NASPOR
               </span>
             )}
           </a>
@@ -148,7 +148,7 @@ export default function App() {
                 {/* Micro-prova de confiança */}
                 <p className="text-xs text-neutral-500 mt-4 flex items-center gap-2">
                   <CheckCircle2 className="w-4 h-4 text-emerald-700 shrink-0" aria-hidden="true" />
-                  <span>Atendimento rápido e orientações direto com a equipe Naspo</span>
+                  <span>Atendimento rápido e orientações direto com a equipe Naspor</span>
                 </p>
               </div>
 
@@ -370,7 +370,7 @@ export default function App() {
                   className="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-8 py-4 rounded-xl text-base font-bold text-white bg-emerald-800 hover:bg-emerald-900 active:scale-[0.98] transition-all shadow-md shadow-emerald-900/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-700 focus-visible:ring-offset-2"
                 >
                   <MessageCircle className="w-5 h-5 text-emerald-300" aria-hidden="true" />
-                  <span>FALAR COM A NASPO</span>
+                  <span>FALAR COM A NASPOR</span>
                   <ChevronRight className="w-5 h-5 text-emerald-200" aria-hidden="true" />
                 </a>
               </div>
@@ -435,7 +435,7 @@ export default function App() {
             </h2>
 
             <p className="text-base sm:text-lg text-neutral-600 mb-8 max-w-xl mx-auto">
-              Fale diretamente com a Naspo e tire suas dúvidas sobre o produto.
+              Fale diretamente com a Naspor e tire suas dúvidas sobre o produto.
             </p>
 
             <a
@@ -445,7 +445,7 @@ export default function App() {
               className="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-8 sm:px-10 py-4 sm:py-4.5 rounded-xl text-base sm:text-lg font-bold text-white bg-emerald-800 hover:bg-emerald-900 active:scale-[0.98] transition-all shadow-lg shadow-emerald-900/15 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-700 focus-visible:ring-offset-2"
             >
               <MessageCircle className="w-6 h-6 text-emerald-300" aria-hidden="true" />
-              <span>FALAR COM A NASPO NO WHATSAPP</span>
+              <span>FALAR COM A NASPOR NO WHATSAPP</span>
             </a>
           </div>
         </section>
@@ -456,7 +456,7 @@ export default function App() {
         <section className="py-12 sm:py-16 bg-white">
           <div className="max-w-2xl mx-auto px-4 sm:px-6 text-center">
             <h3 className="text-xl sm:text-2xl font-bold text-neutral-900 mb-2">
-              Já conhece a Naspo?
+              Já conhece a Naspor?
             </h3>
 
             <p className="text-sm sm:text-base text-neutral-600 mb-6">
@@ -488,7 +488,7 @@ export default function App() {
                   d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.33 0 3.26 2.64 1.25 6.58l4.03 3.15c.95-2.83 3.6-4.98 6.72-4.98z"
                 />
               </svg>
-              <span>AVALIAR A NASPO NO GOOGLE</span>
+              <span>AVALIAR A NASPOR NO GOOGLE</span>
               <ExternalLink className="w-3.5 h-3.5 text-neutral-500" aria-hidden="true" />
             </a>
           </div>
@@ -501,10 +501,10 @@ export default function App() {
       <footer className="bg-neutral-900 text-neutral-300 pt-12 pb-10 border-t border-neutral-800 text-sm">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-8 lg:gap-10 pb-10 border-b border-neutral-800">
-            {/* Coluna 1: Marca Naspo */}
+            {/* Coluna 1: Marca Naspor */}
             <div className="lg:col-span-4">
               <span className="text-xl font-extrabold text-white tracking-tight block mb-3">
-                Naspo
+                Naspor
               </span>
               <p className="text-neutral-400 text-sm leading-relaxed mb-4">
                 Nutrição completa para plantas mais bonitas e saudáveis com o Ouro Verde.
@@ -573,7 +573,7 @@ export default function App() {
           </div>
 
           <div className="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-neutral-500 gap-4">
-            <p>© {new Date().getFullYear()} Naspo. Todos os direitos reservados.</p>
+            <p>© {new Date().getFullYear()} Naspor. Todos os direitos reservados.</p>
             <p>Ouro Verde — Alimento Completo para Plantas</p>
           </div>
         </div>
@@ -591,7 +591,7 @@ export default function App() {
           target="_blank"
           rel="noopener noreferrer"
           className="group flex items-center gap-2.5 bg-[#25D366] hover:bg-[#20ba59] active:scale-95 text-white px-3.5 py-3 sm:px-4 sm:py-3.5 rounded-full shadow-lg shadow-black/20 transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500 focus-visible:ring-offset-2"
-          aria-label="Abrir conversa no WhatsApp da Naspo"
+          aria-label="Abrir conversa no WhatsApp da Naspor"
         >
           {/* Ícone com ponto de presença online */}
           <div className="relative">
